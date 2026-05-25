@@ -1,0 +1,27 @@
+/* Crave Better - Healthy Bakeries Font Imports */
+
+/* Display Font - Sunday Morning (playful, friendly) */
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&display=swap');
+
+/* Main Font - Quicksand (modern, clean) */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap');
+
+/* Script Font - Great Vibes (elegant) */
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+/* Alternative: Using system fallbacks */
+@font-face {
+    font-family: 'Sunday Morning';
+    src: url('https://fonts.googleapis.com/css2?family=Caveat:wght@700') format('woff2');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Quicksand';
+    src: url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700') format('woff2');
+}
+
+@font-face {
+    font-family: 'Great Vibes';
+    src: url('https://fonts.googleapis.com/css2?family=Great+Vibes') format('woff2');
+}

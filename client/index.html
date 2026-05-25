@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/jpeg" href="/images/logo.jpg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Crave Better — Healthy Bakery & Delivery</title>
+  <meta name="description"
+    content="Experience delicious, healthy baked goods delivered to your door. Order now at Crave Better." />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700;800&display=swap"
+    rel="stylesheet" />
+
+  <!-- Tailwind CSS via CDN (no install required) -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Plus Jakarta Sans', 'system-ui', 'sans-serif'],
+            serif: ['Playfair Display', 'Georgia', 'serif'],
+          },
+          colors: {
+            brand: {
+              DEFAULT: '#FF4D00',
+              50: '#fff3ee',
+              100: '#ffe4d5',
+              200: '#ffcaaa',
+              400: '#ff7a40',
+              500: '#FF4D00',
+              600: '#e64400',
+              700: '#bf3800',
+            },
+            crave: {
+              'cocoa': '#3B2A26',
+              'cream': '#F6EFE6',
+              'blush': '#D96B6B',
+              'pistachio': '#A8C3A0',
+              'caramel': '#D8A47F',
+              'lavender': '#D6C3DA',
+            },
+          },
+        },
+      },
+    }
+  </script>
+</head>
+
+<body>
+  <div id="root"></div>
+  <script type="module" src="/src/main.jsx"></script>
+</body>
+
+</html>

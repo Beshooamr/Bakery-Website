@@ -1,0 +1,42 @@
+/* Base resets — Tailwind is loaded via CDN in index.html */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #fff;
+}
+
+#root {
+  min-height: 100vh;
+  width: 100%;
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  border: none;
+  display: block;
+}
+
+/* Smooth scroll */
+html { scroll-behavior: smooth; }
+
+/* Fade-in animations */
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(30px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.fade-in-up {
+  animation: fadeInUp 0.7s ease both;
+}
+.fade-in-up-d1 {
+  animation: fadeInUp 0.7s ease 0.15s both;
+}
+.fade-in-up-d2 {
+  animation: fadeInUp 0.7s ease 0.3s both;
+}
